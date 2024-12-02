@@ -4,8 +4,8 @@ class Term {
   friend class Polynomial;
 
  private:
-  float coef;
-  int exp;
+  float coef;//系数
+  int exp;//指数
 };
 
 class Polynomial {
